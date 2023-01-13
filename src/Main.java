@@ -1,4 +1,8 @@
 import java.util.Scanner;
+
+//Thomas --> Project Lead
+//Nadine & Amira --> Java Meister
+// Khoi --> Time Manager
 public class Main {
     public static void main(String[] args) {
         // Scanner erstellt und benannt
