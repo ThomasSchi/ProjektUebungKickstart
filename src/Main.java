@@ -3,6 +3,7 @@ public class Main {
         int age = 30;
 
         System.out.println("hello group");
+        System.out.println(123);
         // Lass uns jetzt ein If else programmieren hello
     }
 
