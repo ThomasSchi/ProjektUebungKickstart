@@ -12,4 +12,15 @@ public class percentagesquare {
         System.out.println("Die Wurzel von " + x + " = " + ergebnis );
 
     }
+
+    public static double summe ( double x, double y){
+        return x + y;
+
+    }
+
+    public static double subtraktion ( double x, double y){
+        return x - y;
+
+
+    }
 }
