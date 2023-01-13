@@ -1,54 +1,47 @@
 import java.util.Scanner;
-public class main1 {
+public class Main {
     public static void main(String[] args) {
         Scanner eingabe = new Scanner(System.in);
-        double zahleins;
-        double zahlzwei;
+        double x,y;
         String operator;
 
+        System.out.print("Bitte geben Sie Ihre erste Zahl ein: ");
+        x=eingabe.nextDouble();
 
-        System.out.println("Bitte geben Sie Ihre erste Zahl ein");
-        zahleins=eingabe.nextDouble();
-
-
-        System.out.println("Bitte geben Sie Ihren Operator ein");
+        System.out.print("Bitte geben Sie Ihren Operator ein: ");
         operator=eingabe.next();
 
-
-        System.out.println("Bitte geben Sie Ihre zweite Zahl ein");
-        zahlzwei=eingabe.nextDouble();
+        System.out.print("Bitte geben Sie Ihre zweite Zahl ein: ");
+        y=eingabe.nextDouble();
 
         eingabe.close();
-        double result = 0;
 
+        double result = 0;
 
         switch(operator){
             case "+":
-                result=zahleins+zahlzwei;
+                percentagesquare.addition(x,y);
                 break;
             case "-":
-                result = zahleins-zahlzwei;
+                percentagesquare.subtraktion(x,y);
                 break;
             case"*":
-                result=zahleins*zahlzwei;
+                percentagesquare.multiplikation(x,y);
                 break;
             case"/":
-                result=zahleins/zahlzwei;
+                percentagesquare.division(x,y);
                 break;
+            case"w":
+                percentagesquare.squareroot(x);
+            case"p":
+                percentagesquare.percentage(x,y);
             default:
-                System.out.print("Falscher Operator");
+                System.out.print("Falscher Operator. Bitte Neueingabe.");
                 return;
 
-
-
             }
-             System.out.println("Ergebnis: "+result);
-
-
 
         }
-
-
     }
 
 
