@@ -50,6 +50,10 @@ public class Main {
                     // Ruft die Methode Percentage auf
                     percentagesquare.percentage(x, y);
                     break;
+                case "r":
+                    // Ruft die Methode Rest auf
+                    percentagesquare.rest(x, y);
+                    break;
                 default:
                     // Bei falscher Eingabe Printed "Falscher Operator. Bitte Neueingabe." auf die Konsole
                     System.out.print("Falscher Operator. Bitte Neueingabe.");

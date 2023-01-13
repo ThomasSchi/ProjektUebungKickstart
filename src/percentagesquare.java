@@ -36,5 +36,12 @@ public class percentagesquare {
             //Gibt Ergebnis der Division auf Konsole aus
             System.out.println(x + " geteilt durch " + y + " = " + ergebnis);
         }
+
+        public static void rest(double x, double y) {
+            //Berechnung des Rests bei Division von x und y
+            double ergebnis = x%y;
+            //Gibt das Ergebnis der Division auf der Konsole aus
+            System.out.println("Der Rest bei Division von " + x + " und " + y + " = " + ergebnis);
+        }
     }
 
