@@ -1,20 +1,26 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        addieren(s);
 
-        System.out.println("hello group");
+    }
 
-        int i = 7;
-                int p = 7;
+    public static void addieren(Scanner plus) {
+        System.out.println("zahl zum addieren eingeben = ");
+        int zahl1;
+        zahl1 = plus.nextInt();
+        System.out.println("zahl1=" + zahl1);
 
-                if (i == 6) {
-                    System.out.println("hallo amira");
-                }else if (p == 7) {
-                    System.out.println("hallo khoi");
-                }else{
-                    System.out.println( "hallo nadine");
-                }
-        System.out.println(123);
+        System.out.println("zahl zum addieren eingeben = ");
+        int zahl2;
+        zahl2 = plus.nextInt();
+        System.out.println("zahl2=" + zahl2);
 
-        System.out.println("Hallo Leute");
+        int summe = zahl1 + zahl2;
+
+        System.out.println("summe=" + summe);
+
     }
 }
