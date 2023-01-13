@@ -2,25 +2,36 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        addieren(s);
+        double x;
+        double y;
+        System.out.println(summe(2, 6));
+        System.out.println(subtraktion(6,7));
+
+
+        System.out.println("hello group");
+
+    public static double summe(double x, double y) {
+        return x + y;
 
     }
 
-    public static void addieren(Scanner plus) {
-        System.out.println("zahl zum addieren eingeben = ");
-        int zahl1;
-        zahl1 = plus.nextInt();
-        System.out.println("zahl1=" + zahl1);
+    public static double subtraktion(double x, double y) {
+        return x-y;
 
-        System.out.println("zahl zum addieren eingeben = ");
-        int zahl2;
-        zahl2 = plus.nextInt();
-        System.out.println("zahl2=" + zahl2);
 
-        int summe = zahl1 + zahl2;
-
-        System.out.println("summe=" + summe);
 
     }
 }
+
+        public static void percentage(double x, double y) {
+
+            double ergebnis = (x*100)/y;
+            System.out.println(x + " von " + y + " = " + ergebnis +"%");
+        }
+
+        public static void squareroot(double x) {
+            double ergebnis = Math.sqrt(x);
+            System.out.println("Die Wurzel von " + x + " = " + ergebnis );
+
+        }
+    }
