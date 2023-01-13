@@ -13,28 +13,28 @@ public class percentagesquare {
         //Berechnung der Addition von x und y
         double ergebnis = x + y;
         //Gibt Ergebnis der Addition auf Konsole aus
-        System.out.println(x + " plus " + y + " = " + ergebnis);
+        System.out.println(x + " + " + y + " = " + ergebnis);
         }
 
     public static void subtraktion(double x, double y) {
         //Berechnung der Subtraktion von x und y
         double ergebnis = x - y;
         //Gibt Ergebnis der Subtraktion auf Konsole aus
-        System.out.println(x + " minus " + y + " = " + ergebnis);
+        System.out.println(x + " - " + y + " = " + ergebnis);
         }
 
         public static void multiplikation( double x, double y){
             //Berechnung der Multiplikation von x und y
             double ergebnis = x * y;
             //Gibt Ergebnis der Multiplikation auf Konsole aus
-            System.out.println(x + " mal " + y + " = " + ergebnis);
+            System.out.println(x + " * " + y + " = " + ergebnis);
         }
 
         public static void division( double x, double y){
             //Berechnung der Division von x und y
             double ergebnis = x / y;
             //Gibt Ergebnis der Division auf Konsole aus
-            System.out.println(x + " geteilt durch " + y + " = " + ergebnis);
+            System.out.println(x + " / " + y + " = " + ergebnis);
         }
 
         public static void rest(double x, double y) {
