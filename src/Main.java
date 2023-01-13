@@ -3,11 +3,13 @@ public class Main {
 
         System.out.println("hello group");
 
-        int i = 6;
+        int i = 7;
                 int p = 7;
 
                 if (i == 6) {
                     System.out.println("hallo amira");
+                }else if (p == 7) {
+                    System.out.println("hallo khoi");
                 }else{
                     System.out.println( "hallo nadine");
                 }
