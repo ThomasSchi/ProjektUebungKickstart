@@ -18,6 +18,7 @@ public class Main {
     public static double subtraktion(double x, double y) {
         return x-y;
 
+        System.out.println("summe=" + summe);
 
     }
 }
